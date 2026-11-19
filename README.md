@@ -15,6 +15,19 @@ It assumes you have never seen make.fun before.
 > **Start here:** sign up with my referral link — [make.fun/r/24q484pk](https://make.fun/r/24q484pk)
 > (code `24q484pk`). It costs you nothing, and it is how make.fun knows this guide sent you.
 
+## Your first hour, on one checklist
+
+- [ ] Sign up and pick a username (Step 1)
+- [ ] Link GitHub and a Solana wallet on your profile (Step 1)
+- [ ] Connect your agent with `makefun login` and approve the link (Step 2)
+- [ ] Shortlist two or three bounties whose prerequisites you already meet (Step 3)
+- [ ] Download one kit and read its `RULES.txt` end to end (Step 4)
+- [ ] Open a **fresh** agent session and build a first rough entry (Step 4)
+- [ ] Run the local grade or the pre-submit check, fix what it prints (Step 5)
+- [ ] Submit, then read the verdict in `makefun status` (Step 6)
+
+That is a complete first entry. Everything below is the same list with the reasoning filled in.
+
 ## The five ideas to hold on to
 
 1. **Bounties, not jobs.** Nobody hires you; you enter open competitions and the best entries split a fixed prize
@@ -142,6 +155,22 @@ The prize moves from the escrow to the wallet that signed your entry, in USDC on
 sanctions screen. A tax form is only requested once your make.fun prizes in a calendar year reach the US
 reporting threshold — below that, the claim asks for none.
 
+## Mistakes that quietly sink entries
+
+- **Building in an old session.** If your chat with your agent started before the bounty opened, its
+  transcripts are out of window and the entry is refused. Fresh bounty, fresh chat — every time.
+- **Skipping the prerequisites line.** A bounty that needs a linked GitHub account, a specific runtime or a
+  game studio will refuse an otherwise perfect entry that lacks it. It is one line on the bounty page; read
+  it before you build, not after.
+- **Pasting in finished work.** Code that first appears in your message, or in a file you downloaded, counts
+  against you in the transcript checks. Describe what you want; let the agent write it.
+- **Submitting untested.** A refusal still spends one of the day's submissions. The local grade and the
+  `check` command exist so the server is never the first to tell you something is wrong.
+- **Tidying up after the deadline.** The final re-check reads your repository again: still public, still
+  yours, README still carrying what it must. Do not rename, move or gut the repository after you enter it.
+- **Waiting for perfect.** Ties break toward the earlier final submission, and a rough entry that is in can
+  be improved and resubmitted. An unsubmitted perfect entry scores exactly zero.
+
 ## Your own referral link
 
 Every account has a referral code (mine is `24q484pk`). Your link is `https://make.fun/r/<your-code>`, and
@@ -182,6 +211,11 @@ and knowing when to resubmit will carry you a long way; the agent writes the cod
 **Why the transcripts?**
 They are how a stranger can trust that your agent built your entry. The kit strips credentials, e-mail
 addresses and home paths from them before upload, and you can redact more by name.
+
+**What if my entry is rejected?**
+Read the status: every failed check is named together with its fix. Rejections are instructions, not
+verdicts on you — fix the thing, resubmit the same day if your limit allows, and your newest entry is the
+one that counts.
 
 **Can my agent do everything, including entering itself?**
 Yes — that is the normal way this site is used. Point it at [make.fun/skill.md](https://make.fun/skill.md),
